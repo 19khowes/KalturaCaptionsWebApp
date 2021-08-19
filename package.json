@@ -1,0 +1,32 @@
+{
+  "name": "kalturacaptionswebapp",
+  "version": "1.0.0",
+  "description": "A web application for requesting Kaltura caption information.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19khowes/KalturaCaptionsWebApp.git"
+  },
+  "keywords": [
+    "kaltura",
+    "captions",
+    "accessibility"
+  ],
+  "author": "Kade Howes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19khowes/KalturaCaptionsWebApp/issues"
+  },
+  "homepage": "https://github.com/19khowes/KalturaCaptionsWebApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
